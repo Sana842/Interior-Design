@@ -1,0 +1,108 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: white;
+}
+
+/* Icon Styles */
+.i2 {
+  height: 40px;
+  width: 30px;
+  margin-top: 18px;
+  margin-left: 20px;
+  border: 0ch;
+}
+
+.i3 {
+  height: 30px;
+  width: 35px;
+  margin-top: 24px;
+  margin-left: 18px;
+  border: 0ch;
+}
+
+/* Map Styles */
+.map-container {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 60%;
+  /* width: 100%; */
+  height: 90%;
+  margin-top: 50px;
+}
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* Background Icon Styles */
+.bg-icon {
+  background-color: #00375b;
+  height: 75px;
+  width: 70px;
+  border-radius: 20px;
+}
+.container {
+  margin-top: 50px;
+}
+/* .btn {
+  border-radius: 20px;
+  height: 55px;
+  width: 200px;
+} */
+.card {
+  margin-top: 10px;
+  border: 0;
+}
+.card1 {
+  margin-top: 30px;
+  width: 200px;
+}
+.form {
+  height: 400px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.f1 {
+  margin-top: 20px;
+}
+
+.h1 {
+  text-align: center;
+  color: #00375b;
+  /* margin-top: 30px; */
+}
+.d1 {
+  background-color: white;
+  width: 50%;
+  height: 750px;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+.btn {
+  /* margin-left: 400px; */
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: #ffe27a;
+}
+.d2 {
+  margin-top: 20px;
+}
+.i1 {
+  width: 100%;
+  background-color: #edebeb;
+}
+.j1 {
+  margin-top: 10px;
+  color: #00375b;
+}
+.j2 {
+  margin-top: -4px;
+  color: #00375b;
+}
