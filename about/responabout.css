@@ -1,0 +1,339 @@
+#team {
+  padding: 30px 0;
+}
+.sec-heading h6 {
+  font-family: "Allura", cursive;
+  font-size: 65px;
+}
+.single-box {
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #fff;
+  width: 85%;
+}
+.info-area {
+  padding: 10px 20px 20px;
+}
+.img-area {
+  overflow: hidden;
+  padding: 15px 0 15px;
+}
+.img-area img {
+  margin: 0 auto;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  max-width: 230px;
+}
+.single-box:hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.info-area i {
+  display: inline-block;
+  color: #ffb400;
+  margin: 0 4px;
+}
+
+.info-area a {
+  display: inline-block;
+  margin: 25px 0 0;
+  background-color: darkorange;
+  color: #fff;
+  padding: 10px 35px;
+  border-radius: 4px;
+}
+
+.main1 {
+  /* margin-top: 70px; */
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  /* width: 100vw; */
+  position: relative;
+  background: url("./img/1.png") center/cover no-repeat;
+  /* Replace 'your-image.jpg' with the path to your image */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  flex-direction: column;
+}
+
+.main1 h1 {
+  /* font-size: 50px;
+    margin-left: 40px; */
+  color: #fed957;
+  text-shadow: 0 2px 2px #000000;
+}
+
+.b2 {
+  margin-top: 28px;
+  right: 20px;
+  color: #000000;
+  background: #ffe27a;
+  font-size: 17px;
+  border-radius: 6px;
+  width: 200px;
+  border: 0;
+  height: 42px;
+}
+
+#main2 {
+  width: auto;
+  height: auto;
+  background: #edebeb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  margin-top: 25px;
+}
+
+#abs {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+#mm1 {
+  margin-top: 1%;
+
+  width: auto;
+  /* Set your desired width */
+  height: auto;
+  /* This maintains the aspect ratio */
+  display: block;
+  align-items: center;
+  justify-content: center;
+  padding-left: 40px;
+}
+
+#ss1 {
+  margin-top: 5%;
+}
+.single-box {
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #edebeb;
+}
+.single-box:hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.sec-heading h6 {
+  font-size: 65px;
+  color: #00375b;
+}
+
+#tt1 {
+  font-size: 65px;
+  color: #00375b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column55 {
+  float: left;
+  width: 25%;
+  padding: px;
+}
+
+.row55 {
+  margin: 0 -5px;
+  margin-top: 1%;
+}
+
+/* Clear floats after the columns */
+.row55:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column55 {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+/* Style the counter cards */
+.card44 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #fed957;
+  /* color: white; */
+}
+
+.fa {
+  font-size: 50px;
+}
+
+/* .carousel-inner {} */
+
+.client44 {
+  /* width: 100%; */
+  height: 100%;
+  /* background: #7F00FF; */
+  /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(to right, #E100FF, #7F00FF); */
+  /* Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to right, #E100FF, #7F00FF); */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #00375b;
+}
+
+.carousel-icon i {
+  font-size: 5rem;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.carousel-item i {
+  font-size: 1.6rem;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.t-card {
+  padding: 1.8125rem 1.125rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 1.25rem;
+  color: #fff;
+  height: auto;
+}
+
+.outer-size22 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.size22 {
+  width: 700px;
+  overflow: hidden;
+  /* margin-left: 200px; */
+}
+
+.center-button-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 1.5625rem solid transparent;
+  border-right: 1.5625rem solid transparent;
+  border-top: 1.25rem solid rgba(0, 0, 0, 0.5);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+/* .column33 {
+  float: left;
+  width: 25%;
+  padding:1%;
+} */
+
+.row66 {
+  margin: 30px 20px;
+}
+
+/* Clear floats after the columns */
+/* .row66:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+/* Responsive columns */
+/* @media screen and (max-width: 600px) {
+  .column33 {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+  }
+} */
+
+/* Style the counter cards */
+.card33 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #edebeb;
+  color: black;
+  border-radius: 10px;
+}
+.column33 {
+  margin-left: 15px;
+}
+
+.fa {
+  font-size: 50px;
+}
+
+.row66 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+@media screen and (max-width: 700px) {
+  .row66 {
+    grid-template-columns: 1fr;
+    margin: 0px;
+  }
+  .card33 {
+    border-radius: 0px;
+    margin: 0px;
+  }
+  .column33 {
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+#feat {
+  margin-top: 29px;
+  text-align: center;
+}
+
+.icon img {
+  height: 40%;
+  width: 30%;
+  /* max-width: 100px; */
+}
+
+
+
