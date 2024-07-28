@@ -1,0 +1,39 @@
+.gallery {
+  background: #00375b;
+  padding: 20px;
+  min-height: 80vh;
+  width: 100vw;
+}
+
+.gallery .heading {
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.gallery .gallery-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.gallery .gallery-div .card {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.gallery .gallery-div .card img {
+  object-fit: cover;
+  height: 250px;
+  width: 300px;
+}
+
+@media screen and (max-width: 550px) {
+  .gallery .gallery-div .card.hide {
+    display: none;
+  }
+}

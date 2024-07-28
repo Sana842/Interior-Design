@@ -1,0 +1,56 @@
+.services {
+  padding: 20px;
+  height: fit-content;
+  width: 100vw;
+  background-color: #eeeeee;
+}
+
+.services .heading {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.services .services-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.services .services-div .card {
+  height: 220px;
+  width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  background: #00375b;
+  color: #fff;
+}
+
+.services .services-div .card img {
+  height: 180px;
+  width: 100%;
+}
+
+.services .services-div .card .card-heading {
+  padding-block: 10px;
+}
+
+.services .more-services {
+  display: flex;
+  justify-content: center;
+  padding-block: 50px;
+}
+
+.services .more-services button {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 3px;
+  background: #ffd12a;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
